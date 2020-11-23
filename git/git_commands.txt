@@ -33,3 +33,16 @@ Check last commit - git log -"count latest commit (int)"
 Discarding changes
 git restore file_name.*
 ====================================================================================================
+Ignoring specific files
+Step 1. Create specific file
+    Linux System
+        touch .gitignore
+    Windows System
+        New-Item .gitignore
+Step 2. Add to file mask or names ignored files
+Example:
+    file*.*
+    file
+    *.*
+    filename/
+====================================================================================================
