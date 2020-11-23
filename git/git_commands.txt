@@ -29,6 +29,9 @@ git commit -m "Your commit"
 Checking logs
 Check all commit - git log
 Check last commit - git log -"count latest commit (int)"
+
+Checking differences
+git diff --staged
 ====================================================================================================
 Discarding changes
 git restore file_name.*
