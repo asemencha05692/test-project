@@ -18,7 +18,7 @@ Step 2. Initializing local repository
 Checking status
 git status
 /-------------------------------------------------------------------------------------------------/
-Add new files to repository DB
+Add new files to localrepository DB
 git add .
 git add *
 git add file_name.*,file_name2.*,...
@@ -48,4 +48,9 @@ Example:
     file
     *.*
     filename/
+====================================================================================================
+
+====================================================================================================
+Updating git from CLI for Windows System
+git update-git-for-windows
 ====================================================================================================
